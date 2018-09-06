@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contact Us</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/restaurantStyles.css" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+</head>
+<div class="container">
+	<body>
+		<h1>Food I Like</h1>
+		<hr />
+		<ul class="nav nav-pills">
+			<li><a href="index.html"><span class="glyphicon glyphicon-home"></span></a></li>
+			<li><a href="menu.html">Menu</a></li>
+			<li><a href="contactUs.html">Contact Us</a></li>
+		</ul>
+		<hr />
+		<script src="js/bootstrap.min.js"></script>
+		<body>
+			<script src="js/jquery-2.2.4.min.js"></script>
+			<div class="main">
+				<form action="submitForm.html" method="POST" id="contact-form">
+					Name:<input type="text" name="name" class="req"><br />
+					Email:<input type="text" name="email" class="req"><br />
+					Phone:<input type="text" name="phone" class="req"><br />
+					Reason for Inquiry:
+					<select name="reasonForInquiry" class="req">
+						<option value="Catering">Catering</option>
+						<option value="Private Party">Private Party</option>
+						<option value="Feedback">Feedback</option>
+						<option value="Lawsuit">Lawsuit</option>
+						<option value="Other">Other</option>
+					</select>
+					<br/>
+					Additional Information:
+					<br/>
+					<textarea name="additionalInformation"></textarea><br />
+					Have you been to the restaurant?
+					<br/>
+					<input type="radio" name="answer" value="Yes" checked>Yes<br />
+					<input type="radio" name="answer" value="No">No<br />
+					<input type="radio" name="answer" value="Maybe">Maybe<br />
+					Best days to contact you:
+					<input type="checkbox" name="day" value="M">M
+					<input type="checkbox" name="day" value="T">T
+					<input type="checkbox" name="day" value="W">W
+					<input type="checkbox" name="day" value="T">T
+					<input type="checkbox" name="day" value="F">F
+					<br />
+					<input type="submit"/><br />
+				</form>
+			</body>
+			<hr />
+		</div>
+		<footer>
+			<p>123 Fayke St., Nowheresville, Nebraskahoma, 12321-12</p>
+			<br />
+			<p> Phone:(123) 321-1234</p>
+		</footer>
+		</html>
